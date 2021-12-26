@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FA93D61D585C347CB156EA9 /* Pods_SpaceXLaunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655E1827C3B8AF7BE53D9093 /* Pods_SpaceXLaunch.framework */; };
+		9D8941312777134A00570865 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8941302777134A00570865 /* ContentViewController.swift */; };
+		9DD6C9F1277764F000C863A4 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD6C9F0277764F000C863A4 /* Dimension.swift */; };
+		9DD6C9F327785CD300C863A4 /* RedditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD6C9F227785CD300C863A4 /* RedditViewController.swift */; };
 		9DE9EB242776AD2A00A319DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9EB232776AD2A00A319DB /* AppDelegate.swift */; };
 		9DE9EB262776AD2A00A319DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9EB252776AD2A00A319DB /* SceneDelegate.swift */; };
-		9DE9EB282776AD2A00A319DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9EB272776AD2A00A319DB /* ViewController.swift */; };
 		9DE9EB2B2776AD2A00A319DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9EB292776AD2A00A319DB /* Main.storyboard */; };
 		9DE9EB2D2776AD2B00A319DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9EB2C2776AD2B00A319DB /* Assets.xcassets */; };
 		9DE9EB302776AD2B00A319DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9EB2E2776AD2B00A319DB /* LaunchScreen.storyboard */; };
+		9DE9EB382776AD4200A319DB /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9EB372776AD4200A319DB /* StoreItem.swift */; };
+		9DF6089A2778B9BF004CF78C /* ViewController+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF608992778B9BF004CF78C /* ViewController+Extenstions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		655E1827C3B8AF7BE53D9093 /* Pods_SpaceXLaunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceXLaunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BC29369A2B678B232C0C55 /* Pods-SpaceXLaunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceXLaunch.debug.xcconfig"; path = "Target Support Files/Pods-SpaceXLaunch/Pods-SpaceXLaunch.debug.xcconfig"; sourceTree = "<group>"; };
+		9D8941302777134A00570865 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		9DD6C9F0277764F000C863A4 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		9DD6C9F227785CD300C863A4 /* RedditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditViewController.swift; sourceTree = "<group>"; };
 		9DE9EB202776AD2A00A319DB /* SpaceXLaunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceXLaunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE9EB232776AD2A00A319DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DE9EB252776AD2A00A319DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DE9EB272776AD2A00A319DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DE9EB2A2776AD2A00A319DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DE9EB2C2776AD2B00A319DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE9EB2F2776AD2B00A319DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DE9EB312776AD2B00A319DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE9EB372776AD4200A319DB /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
+		9DF608992778B9BF004CF78C /* ViewController+Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ViewController+Extenstions.swift"; path = "/Users/kylelei/Developer/PeterPan II_Exercise/SpaceXLaunch/SpaceXLaunch/ViewController/ViewController+Extenstions.swift"; sourceTree = "<absolute>"; };
+		B908984D6B0AEEE4E69AC2DD /* Pods-SpaceXLaunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceXLaunch.release.xcconfig"; path = "Target Support Files/Pods-SpaceXLaunch/Pods-SpaceXLaunch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA93D61D585C347CB156EA9 /* Pods_SpaceXLaunch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BF05086767F391A3434ED8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				655E1827C3B8AF7BE53D9093 /* Pods_SpaceXLaunch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D6AF5A01DE48A832E349367 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87BC29369A2B678B232C0C55 /* Pods-SpaceXLaunch.debug.xcconfig */,
+				B908984D6B0AEEE4E69AC2DD /* Pods-SpaceXLaunch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9DE9EB172776AD2A00A319DB = {
 			isa = PBXGroup;
 			children = (
 				9DE9EB222776AD2A00A319DB /* SpaceXLaunch */,
 				9DE9EB212776AD2A00A319DB /* Products */,
+				4D6AF5A01DE48A832E349367 /* Pods */,
+				4BF05086767F391A3434ED8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +90,33 @@
 			children = (
 				9DE9EB232776AD2A00A319DB /* AppDelegate.swift */,
 				9DE9EB252776AD2A00A319DB /* SceneDelegate.swift */,
-				9DE9EB272776AD2A00A319DB /* ViewController.swift */,
 				9DE9EB292776AD2A00A319DB /* Main.storyboard */,
+				9DE9EB402776BE1500A319DB /* ViewController */,
+				9DE9EB3F2776BDF000A319DB /* Model */,
 				9DE9EB2C2776AD2B00A319DB /* Assets.xcassets */,
 				9DE9EB2E2776AD2B00A319DB /* LaunchScreen.storyboard */,
 				9DE9EB312776AD2B00A319DB /* Info.plist */,
 			);
 			path = SpaceXLaunch;
+			sourceTree = "<group>";
+		};
+		9DE9EB3F2776BDF000A319DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DE9EB372776AD4200A319DB /* StoreItem.swift */,
+				9DD6C9F0277764F000C863A4 /* Dimension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DE9EB402776BE1500A319DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9D8941302777134A00570865 /* ContentViewController.swift */,
+				9DD6C9F227785CD300C863A4 /* RedditViewController.swift */,
+				9DF608992778B9BF004CF78C /* ViewController+Extenstions.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DE9EB342776AD2B00A319DB /* Build configuration list for PBXNativeTarget "SpaceXLaunch" */;
 			buildPhases = (
+				4648AE39B56FFB537D6141FF /* [CP] Check Pods Manifest.lock */,
 				9DE9EB1C2776AD2A00A319DB /* Sources */,
 				9DE9EB1D2776AD2A00A319DB /* Frameworks */,
 				9DE9EB1E2776AD2A00A319DB /* Resources */,
+				E004724A4D9A4F0CBD8559EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +187,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4648AE39B56FFB537D6141FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceXLaunch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E004724A4D9A4F0CBD8559EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceXLaunch/Pods-SpaceXLaunch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceXLaunch/Pods-SpaceXLaunch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpaceXLaunch/Pods-SpaceXLaunch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DE9EB1C2776AD2A00A319DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE9EB282776AD2A00A319DB /* ViewController.swift in Sources */,
+				9DD6C9F327785CD300C863A4 /* RedditViewController.swift in Sources */,
+				9DF6089A2778B9BF004CF78C /* ViewController+Extenstions.swift in Sources */,
 				9DE9EB242776AD2A00A319DB /* AppDelegate.swift in Sources */,
+				9DD6C9F1277764F000C863A4 /* Dimension.swift in Sources */,
+				9DE9EB382776AD4200A319DB /* StoreItem.swift in Sources */,
 				9DE9EB262776AD2A00A319DB /* SceneDelegate.swift in Sources */,
+				9D8941312777134A00570865 /* ContentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +384,7 @@
 		};
 		9DE9EB352776AD2B00A319DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BC29369A2B678B232C0C55 /* Pods-SpaceXLaunch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +413,7 @@
 		};
 		9DE9EB362776AD2B00A319DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B908984D6B0AEEE4E69AC2DD /* Pods-SpaceXLaunch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
